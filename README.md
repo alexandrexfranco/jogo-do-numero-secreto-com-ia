@@ -7,7 +7,7 @@ Este é um simples jogo de adivinhação de números desenvolvido com HTML, CSS 
 
 ## Demonstração
 
-https://jogo-ns-9axomh1wr-alexandrexfrancos-projects.vercel.app/
+https://jogo-ns-ia.vercel.app/
 
 ## Funcionalidades
 
