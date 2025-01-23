@@ -27,5 +27,5 @@ https://jogo-ns-ia.vercel.app/
 
 ## Observações
 
-* O ResponsiveVoice estava muito lento, então tive a ideia de usar a api do próprio navegador (API Web Speech Synthesis) para fazer a interação de ádio. Gostei do reaultado! Fiz o teste no navegador Edge e Chrome. Funcionou perfeitamente!
+* O ResponsiveVoice estava muito lento, então tive a ideia de usar a api do próprio navegador (API Web Speech Synthesis) para fazer a interação de ádio. Gostei do reaultado! Fiz o teste no navegador Edge e Chrome para PC e no celular usei o Brave. Funcionou perfeitamente!
 * A imagem de fundo eu usei a inteligência artificial Gemini e personalizei no Corel. Salvei em png mas ficou com mais de 2 megas, então usei o site: (https://anyconv.com/pt/conversor-de-jpg-para-webp/) onde converti o png para web. Assim reduz o tamanho mantendo um qualidade aceitável. Ficou ótimo!
