@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url("img/fundo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#caixa-texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #000000;
+    width: 100%;
+}
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 400px; /* Largura máxima do formulário */
+    margin-left: -200px; /* Ajuste este valor para controlar a distância à esquerda */
+    margin-top: 100px; /* Ajuste este valor para controlar a distância à esquerda */
+}
+
+/* Estilos para todos os elementos do formulário (label, input, button) */
+#formulario label,
+#formulario input,
+#formulario button {
+    margin-bottom: 10px; /* Espaçamento entre os elementos */
+    font-size: 16px;
+    font-family: sans-serif; /*Consistência na fonte*/
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+    width: 100%; /*Ocupa toda a largura do container*/
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#formulario input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black; /*Garante que o texto digitado seja visível*/
+}
+
+#formulario button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+#formulario button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 95%;
+        padding: 10px;
+    }
+    #formulario {
+        max-width: none;
+        margin-left: 0; /*Remove a margem esquerda em telas menores*/
+    }
+}
